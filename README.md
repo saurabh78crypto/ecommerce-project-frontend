@@ -23,8 +23,8 @@ This is the frontend application for an Ecommerce platform. It allows users to b
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/saurabh78crypto/ecommerce-project-frontend.git
+cd ecommerce-project-frontend
 ```
 
 2. Install dependencies
