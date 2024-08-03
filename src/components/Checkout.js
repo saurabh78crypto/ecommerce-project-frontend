@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Box, TextField, Button, Typography } from '@mui/material';
 import api from '../api';
+import { useNavigate } from 'react-router-dom';
 
 const Checkout = () => {
   const [address, setAddress] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -12,6 +14,7 @@ const Checkout = () => {
       if (response.status === 200) {
         alert('Checkout successful');
         setAddress('');
+        navigate('/cart');
       }
     } catch (error) {
       console.error('Error during checkout', error);
