@@ -30,6 +30,7 @@ const Navbar = ({ isLoggedIn, isAdmin, handleLogout }) => {
           </>
         ) : (
           <>
+            <Button color="inherit" component={Link} to="/products">Product List</Button>
             <Button color="inherit" component={Link} to="/cart">Cart</Button>
             <Button color="inherit" onClick={handleLogoutClick}>Logout</Button>
           </>
