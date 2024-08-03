@@ -38,3 +38,7 @@ yarn install
 ```bash
 npm start
 ```
+
+## Deployment
+
+The frontend is deployed on Netlify. You can access the live application at ``
