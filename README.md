@@ -41,4 +41,5 @@ npm start
 
 ## Deployment
 
-The frontend is deployed on Netlify. You can access the live application at ``
+The frontend is deployed on Netlify. You can access the live application at 
+`https://ecommerce-project-main.netlify.app/`
